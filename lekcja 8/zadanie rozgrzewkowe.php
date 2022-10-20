@@ -14,6 +14,64 @@ $tablica[10] = 73;
 	foreach($tablica as $item){
         echo "$item <br>";
     }
+	$nazwa = "Cześć nazywam się dawid hahaha";
+	  echo "$nazwa <br>";
+		
+		 $nazwa = explode(' ', $nazwa);
+    print_r($nazwa);
+	
+	echo "<br>";
+	
+	echo count($nazwa);
+	echo "<br>";
+	echo count($tablica);
+	
+	sort($tablica, SORT_NUMERIC);
+	sort($nazwa, SORT_STRING);
+	foreach($nazwa as $item){
+		echo "$item<br>";
+		
+  }
+  foreach($tablica as $item){
+		echo "$item<br>";
+		
+  }
+	rsort($tablica, SORT_NUMERIC);
+rsort($nazwa, SORT_STRING);
+  echo "<br>";
+  
+  foreach($tablica as $item){
+		echo "$item<br>";
+		
+  }
+  
+  rsort($nazwa, SORT_NUMERIC);
+rsort($nazwa, SORT_STRING);
+
+	foreach($nazwa as $item){
+		echo "$item<br>";
+		
+		
+		echo "<br>";
+  }
+  
+  shuffle($nazwa);
+  shuffle($tablica);
+  
+  foreach($nazwa as $item){
+		echo "$item<br>";
+		
+		echo "<br>";
+  
+  }
+  
+   foreach($tablica as $item){
+		echo "$item<br>";
+		
+  }
+
+
+
 
 
 ?>
